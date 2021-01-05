@@ -19,7 +19,9 @@ export default class Pic extends React.Component{
                     <Col span={8}>
                         <Link to='/covid'>covid</Link>
                     </Col>
-                    <Col span={8}>col-8</Col>
+                    <Col span={8}>
+                        <Link to='/IWant2See'>IWant2See</Link>
+                    </Col>
                 </Row>
                 <div>
                 </div>
