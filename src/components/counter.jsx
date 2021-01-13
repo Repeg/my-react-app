@@ -50,7 +50,7 @@ export default class Counter extends React.Component{
         //     this.setState({count: count + number});
         // }
         const {count} = this.props;
-        if(count % 2 == 1){
+        if(count % 2 === 1){
             // this.props.store.dispatch({type: INCREMENT, data: number});
             // this.props.store.dispatch(actions.increment(number));
             this.props.increment(number);

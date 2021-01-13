@@ -1,8 +1,8 @@
 import React from 'react';
-import {withRouter} from 'react-router-dom';
+// import {withRouter} from 'react-router-dom';
 
 import { PageHeader, Button  } from 'antd';
-import Axios from 'axios';
+// import Axios from 'axios';
 
 export default class TaskList extends React.Component{
     state = {
