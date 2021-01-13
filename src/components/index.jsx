@@ -1,15 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'antd';
 
-export default class Pic extends React.Component{
-    state = {
-    }
+export default class Index extends React.Component{
+    // static propTypes = {
+    //     counter: PropTypes.string.isRequired
+    // }
 
     componentDidMount(){
     }
 
     render(){
+         
         return (
             <div>
                 <Row>
@@ -20,10 +23,14 @@ export default class Pic extends React.Component{
                         <Link to='/covid'>covid</Link>
                     </Col>
                     <Col span={8}>
-                        <Link to='/IWant2See'>IWant2See</Link>
+                        <Link to='/taskList'>taskList</Link>
+                    </Col>
+                    <Col span={8}>
+                        <Link to='/counter'>counter</Link>
                     </Col>
                 </Row>
                 <div>
+                    
                 </div>
             </div>
         )

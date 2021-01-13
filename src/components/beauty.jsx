@@ -2,9 +2,9 @@ import React from 'react';
 
 import { PageHeader } from 'antd';
 
-import Pic from '../component/pic'
+import Pic from '../components/pic'
 
-import '../css/pic.css';
+import '../assets/css/pic.css';
 
 export default class Beauty extends React.Component{
     state = {

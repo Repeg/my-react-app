@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { PageHeader, Input, Button } from 'antd';
-import Axios from 'axios';
+import { Link } from "react-router-dom";
 
 export default class AddTask extends React.Component{
     state = {
@@ -44,7 +44,7 @@ export default class AddTask extends React.Component{
                 <Input addonBefore="Task desc" addonAfter="" defaultValue="" value={this.state.taskDesc} onChange={this.taskDescChange} placeholder="please input task desc" />
                 <Input addonBefore="Point" addonAfter="" defaultValue="" value={this.state.point} onChange={this.taskPointChange} type="number" placeholder="please input point" />
                 <Button type="primary" onClick={this.submitInfo}>submit</Button>
-                <Button>cancel</Button>
+                <Link to="/taskList"><Button>cancel</Button></Link>
             </div>
         )
     } 

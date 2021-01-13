@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import { Spin } from 'antd';
 
-import '../css/pic.css';
+import '../assets/css/pic.css';
 
 export default class Pic extends React.Component{
     state = {
